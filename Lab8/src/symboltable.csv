@@ -1,0 +1,27 @@
+MainS2,class,--,3,public,global
+name,variable,String,5,--,MainS2
+age,variable,int,6,--,MainS2
+MainS2,constructor,--,7,public,MainS2
+name,parameter,String,7,--,MainS2.MainS2
+age,parameter,int,7,--,MainS2.MainS2
+getName,method,String,11,public,MainS2
+toString,method,String,12,public,MainS2
+" is ",literal,String,12,--,global
+diffrence,method,int,14,public,MainS2
+person1,parameter,MainS2,14,--,MainS2.diffrence
+person2,parameter,MainS2,14,--,MainS2.diffrence
+diffrence,variable,int,15,--,MainS2.diffrence
+choices,method,MainS2,20,public,MainS2
+System,class,--,--,public,global
+out,variable,PrintStream,--,public,System
+println,method,void,--,public,System
+"Enter age: ",literal,String,21,--,global
+keyboard,variable,Scanner,22,--,MainS2.choices
+Scanner,constructor,--,--,public,Scanner
+in,variable,InputStream,--,public,System
+age,variable,int,23,--,MainS2.choices
+nextInt,method,int,--,public,Scanner
+"Enter name: ",literal,String,24,--,global
+keyboard2,variable,Scanner,25,--,MainS2.choices
+name,variable,String,27,--,MainS2.choices
+next,method,int,--,public,Scanner
